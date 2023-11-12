@@ -1,3 +1,4 @@
+@import "../gallery-lib/gallery-ags.css";
 
 html {
     box-sizing: border-box;
@@ -137,7 +138,17 @@ body {
 .ags__link:hover {
     color: darkgrey;
 }
-    /*===========================footer=========================*/
+/* gallery */
+#gallery {
+    /*max-width: 1100px;*/
+    margin: 0 auto;
+}
+
+.slideshow-title {
+    margin: 0;
+    text-align: center;
+}
+/*================ footer =============================*/
 .footer {
     display: flex;
     justify-content: center;
